@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import UserList from './components/UserList';
 import UserDetails from './components/UserDetails';
 import './App.css';
-import { fetchUsers, createUser } from './api'; // Update the import path as needed
-import CreateUserForm from './components/CreateUserForm'; // Import the CreateUserForm component
+import { fetchUsers, createUser } from './api';
+import CreateUserForm from './components/CreateUserForm'; 
 import Navbar from './components/Navbar';
 
 function App() {
