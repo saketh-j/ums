@@ -1,38 +1,195 @@
+
+body, h1, h2, p, ul, li, form, input, button, table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the entire app */
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.title{
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1, h2, h3 {
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-right: 10px;
+}
+
+/* CreateForm CSS */
+.create-user-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-user-form h2 {
+  margin-bottom: 10px;
+}
+
+.create-user-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.create-user-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-user-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.create-user-form button:hover {
+  background-color: #0056b3;
+}
+
+/* UserDetails Css */
+.user-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h1 {
+  margin-bottom: 10px;
+}
+
+.user-details p {
+  margin-bottom: 8px;
+}
+
+.user-details label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.user-details input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-details button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+.user-details button:hover {
+  background-color: #0056b3;
+}
+
+.user-details a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.user-details a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar css */
+.navbar {
+  background-color: #303943;
+  color: #fff;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-menu a:hover {
+  color: #c1d3e5;
+}
+/* UserDetails.css */
+.loading-skeleton {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skeleton-row {
+  height: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
 }
