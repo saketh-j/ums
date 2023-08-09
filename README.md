@@ -1,6 +1,14 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployed Link:
+https://dulcet-treacle-bbe62a.netlify.app/
+
+![image](https://github.com/saketh-j/ums/assets/109161554/9a409322-3868-477c-b859-4de302de7c87)
+
+## Dependencies Used
+Axios 
+react-router-dom
+React-skeleton
 
 ## Available Scripts
 
